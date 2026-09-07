@@ -13,7 +13,7 @@
     "title": "Full Stack Developer & AI/Automation Engineer",
     "shortTitle": "Full Stack AI Developer",
     "rate": "$70/hr",
-    "upworkStatus": "16k+ / Top Rated",
+    "ProjectCounts": "30+",
     "email": "contact.gonzalezagustine80@gmail.com",
     "linkedinUrl": "null",
     "githubUrl": "https://github.com/TopRated-Plus",
@@ -37,7 +37,7 @@
     "imageAlt": "Agustine Gonzalez",
     "badgeTitle": "Top Rated Full Stack Developer",
     "badgeText": "$70/hr / AI, Automation, SaaS",
-    "floatingBadge": "16k+ Upwork",
+    "floatingBadge": "30+ Projects",
     "scrollLabel": "Scroll"
   },
   "terminal": {
@@ -1185,7 +1185,7 @@
     "profileLabel": "Profile",
     "profileText": "Agustine Gonzalez - California, USA. Full Stack Developer & AI/Automation Engineer.",
     "stats": [
-      { "label": "Upwork", "value": "16k+ / Top Rated" },
+      { "label": "Completed Projects", "value": "30+" },
       { "label": "Rate", "value": "$70/hr" }
     ],
     "story": [
