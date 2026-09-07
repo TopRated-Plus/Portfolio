@@ -39,18 +39,9 @@ export function ProjectShowcase({ compact = false }: { compact?: boolean }) {
           </button>
         ))}
       </div>
-      <motion.div
-        layout
-        className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3"
-      >
+      <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {filtered.map((study, index) => (
-          <motion.div
-            layout
-            key={study.slug}
-            initial={{ opacity: 0, y: 18 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.04, duration: 0.4 }}
-          >
+          <div key={study.slug}>
             <Link
               href={`/case-studies/${study.slug}`}
               className="group block overflow-hidden rounded-2xl border border-line bg-canvas transition-all duration-300 hover:-translate-y-1 hover:border-rose-300/50 hover:shadow-soft"
@@ -90,9 +81,9 @@ export function ProjectShowcase({ compact = false }: { compact?: boolean }) {
                 </div>
               </div>
             </Link>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 }
